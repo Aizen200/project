@@ -1,0 +1,112 @@
+div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#image1 {
+    
+    height: 400px;
+    width: 400px;
+}
+#image2 {
+    height: 400px;
+    width: 400px;
+    margin-left: 10px;
+}
+.row2 {
+    margin-top: 10px;
+}
+#image3 {
+    height:400px;
+    width: 400px;
+    margin-left: 10px;;
+
+}
+#image4 {
+    width: 264px;
+    margin-left: 10px;
+    height: 400px;
+}
+#image6 {
+    margin-left: 10px;
+    height: 545px;
+    width: 525px;
+
+}
+.row3 {
+    margin-top: 10px;
+}
+#image7 {
+    height: 450px;
+    width: 500px;
+}
+#image8 {
+    height: 450px;
+    width: 500px;
+    margin-left: 10px;
+}
+#image9 {
+    margin-left: 10px;
+    height: 450px;
+    width: 500px;
+}
+.row4 {
+    margin-top: 10px;
+
+}
+#image10 {
+    height: 250px;
+    width: 250px;
+}
+#image11 {
+    height: 250px;
+    width: 250px;
+    margin-left: 10px;
+}
+#image12 {
+    height: 250px;
+    width: 250px;
+    margin-left: 10px;
+}
+#image13 {
+    height: 250px;
+    width: 250px;
+    margin-left: 10px;
+}
+#image14 {
+    height: 250px;
+    width: 250px;
+    margin-left: 10px;
+}
+#image15 {
+    height: 250px;
+    width: 250px;
+    margin-left: 10px;
+}
+.row5 {
+    margin-top: 10px;
+}
+#image16 {
+    height: 550px;
+    width: 750px;
+}
+#image17 {
+    height: 550px;
+    width: 750px;
+    margin-left: 10px;
+}
+.row6 {
+    margin-top: 10px;
+}
+#image18 {
+    height: 650px;
+    width: 850px;
+}
+#image19 {
+    height: 650px;
+    width: 635px;
+    margin-left: 10px;
+}
+h1 {
+    font-family: 'Dancing Script', cursive;
+}

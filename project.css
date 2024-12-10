@@ -1,0 +1,81 @@
+body {
+    background-color: grey;
+}
+div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+   
+}
+
+#image1 {
+    height: 350px;
+    width: 350px;
+}
+#image2 {
+    height: 350px;
+    width: 350px;
+}
+#image3 {
+    height: 350px;
+    width: 350px;
+
+}
+
+.row2{
+    margin-top: 35px; 
+    
+    
+}
+
+#image6 {
+    height: 350px;
+    width: 350px;
+    
+
+}
+#image7 {
+    height: 350px;
+    width: 350px;
+    
+
+}
+#image8 {
+    height: 350px;
+    width: 350px;
+    
+
+}
+.row3 {
+    margin-top: 35px;
+   
+    
+}
+#image9 {
+    height: 350px;
+    width: 350px;
+}
+#image10 {
+    height: 350px;
+    width: 350px;
+}
+#image11 {
+    height: 350px;
+    width: 350px;
+}
+
+img {
+    border: 20px solid black;
+    box-shadow: 10px 10px 20px 5px white;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1 {
+    font-family: 'Dancing Script', cursive;
+}

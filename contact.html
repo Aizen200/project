@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: flex;
+            align-items: center;  /* Vertically centers the content */
+            justify-content: center; /* Horizontally centers the content */
+            gap: 40px;  
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-image {
+            width: 500px;
+            height: 700px;;
+        }
+        h1 {
+            text-align: left;
+            font-size: 3rem;
+            margin-bottom: 20px;
+            font: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: olive;
+
+        }
+        p {
+            text-align: left;
+            font-size: 1.1em;
+            color: gray
+        }
+
+        a[href^="mailto:"]{
+            color:cornflowerblue;
+            font-weight:bold;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+            color:cornflowerblue;
+            
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 3px;
+        }
+        input[type="text"], input[type="email"], input[type="url"], select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 10px;
+            border: 0.5px solid cornflowerblue;
+            border-radius: 5px;
+            font-size: 1em;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        textarea {
+            height: 150px;
+            resize: vertical;
+        }
+        button {
+            background-color: darkolivegreen;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 20px;
+            font-size: 1.1em;
+            cursor: pointer;
+            display: block;
+            width: 150px;
+        }
+        button:hover {
+            background-color:crimson;
+        }
+        .optional {
+            font-size: 0.9em;
+            color: #666;
+        }
+        .required::after {
+            content: " *";
+            color: steelblue;
+        }
+        .error {
+            color: red;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="image-block">
+            <img src="contact.jpeg" alt="Image before form" class="form-image">
+        </div>
+        
+
+        <form action="submit_form.php" method="POST">
+            <h1>CONTACT US</h1>
+        <p>If you’re interested in chatting, please fill out this form and we’ll be in touch. Or email <a href="mailto:khanastudio@gmail.com">khanastudio@gmail.com</a>.</p>
+            <div class="form-group">
+                <label for="first-name" class="required">First Name</label>
+                <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="last-name" class="required">Last Name</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="company" class="required">Brand/Company</label>
+                <input type="text" id="company" name="company" placeholder="Brand/Company" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="required">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
+            </div>
+
+            <div class="form-group">
+                <label for="website">Website</label>
+                <input type="url" id="website" name="website" placeholder="Website URL (Optional)">
+            </div>
+
+            <div class="form-group">
+                <label for="interest" class="required">I'm interested in connecting about:</label>
+                <select id="interest" name="interest" required>
+                    <option value="">Select an option...</option>
+                    <option value="food-photography">Food Photography</option>
+                    <option value="drink-photography">Drink Photography</option>
+                    <option value="product-photography">Product Photography</option>
+                    <option value="something-else">Something Else!</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="details" class="required">Spill the tea- Gimme some details!</label>
+                <textarea id="details" name="details" placeholder="Tell me more about what you're looking for..." required></textarea>
+            </div>
+
+            <button type="submit">CHEERS!</button>
+
+           
+        </form>
+    </div>
+
+</body>
+</html>
