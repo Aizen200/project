@@ -79,3 +79,8 @@ img {
 h1 {
     font-family: 'Dancing Script', cursive;
 }
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
